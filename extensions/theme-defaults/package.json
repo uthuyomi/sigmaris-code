@@ -14,65 +14,70 @@
   "contributes": {
     "themes": [
       {
-      "id":"Sigmaris Sakura",
-      "label": "Sigmaris Sakura",
-      "uiTheme": "vs-dark",
-      "path": "./themes/sigmaris-sakura.json"
-    },
-      {
-        "id": "Default Dark+",
-        "label": "%darkPlusColorThemeLabel%",
+        "id": "Sigmaris Blue",
+        "label": "Sigmaris Blue",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark_plus.json"
+        "path": "./themes/sigmaris-blue.json"
       },
       {
-        "id": "Default Dark Modern",
-        "label": "%darkModernThemeLabel%",
+        "id": "Sigmaris Graphite",
+        "label": "Sigmaris Graphite",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark_modern.json"
+        "path": "./themes/sigmaris-graphite.json"
       },
       {
-        "id": "Default Light+",
-        "label": "%lightPlusColorThemeLabel%",
-        "uiTheme": "vs",
-        "path": "./themes/light_plus.json"
-      },
-      {
-        "id": "Default Light Modern",
-        "label": "%lightModernThemeLabel%",
-        "uiTheme": "vs",
-        "path": "./themes/light_modern.json"
-      },
-      {
-        "id": "Visual Studio Dark",
-        "label": "%darkColorThemeLabel%",
+        "id": "Sigmaris Midnight",
+        "label": "Sigmaris Midnight",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark_vs.json"
+        "path": "./themes/sigmaris-midnight.json"
       },
       {
-        "id": "Visual Studio Light",
-        "label": "%lightColorThemeLabel%",
+        "id": "Sigmaris Mono Access",
+        "label": "Sigmaris Mono Access",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sigmaris-mono-access.json"
+      },
+      {
+        "id": "Sigmaris Neon Night",
+        "label": "Sigmaris Neon Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sigmaris-neon-night.json"
+      },
+      {
+        "id": "Sigmaris Sakura",
+        "label": "Sigmaris Sakura",
         "uiTheme": "vs",
-        "path": "./themes/light_vs.json"
+        "path": "./themes/sigmaris-sakura.json"
       },
       {
-        "id": "Default High Contrast",
-        "label": "%hcColorThemeLabel%",
-        "uiTheme": "hc-black",
-        "path": "./themes/hc_black.json"
+        "id": "Universal Protanopia Safe",
+        "label": "Universal Protanopia Safe",
+        "uiTheme": "vs-dark",
+        "path": "./themes/universal-protanopia-safe.json"
       },
       {
-        "id": "Default High Contrast Light",
-        "label": "%lightHcColorThemeLabel%",
-        "uiTheme": "hc-light",
-        "path": "./themes/hc_light.json"
-      }
-    ],
-    "iconThemes": [
+        "id": "Universal Deuteranopia",
+        "label": "Universal Deuteranopia",
+        "uiTheme": "vs-dark",
+        "path": "./themes/universal-deuteranopia.json"
+      },
       {
-        "id": "vs-minimal",
-        "label": "%minimalIconThemeLabel%",
-        "path": "./fileicons/vs_minimal-icon-theme.json"
+        "id": "Universal Tritanopia Safe",
+        "label": "Universal Tritanopia Safe",
+        "uiTheme": "vs-dark",
+        "path": "./themes/universal-tritanopia-safe.json"
+      },
+      {
+        "id": "Universal High Contrast Black",
+        "label": "Universal High Contrast Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/universal-high-contrast-black.json"
+      },
+      {
+        "id": "Universal Light Gray Contrast",
+        "label": "Universal Light Gray Contrast",
+        "uiTheme": "vs",
+        "path": "./themes/universal-light-gray-contrast.json"
       }
     ]
   },

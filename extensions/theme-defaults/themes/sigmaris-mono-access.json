@@ -1,0 +1,148 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "Sigmaris Mono Access",
+
+	"colors": {
+		"editor.background": "#1A1A1A",
+		"editor.foreground": "#E6E6E6",
+
+		"editor.selectionBackground": "#333333",
+		"editor.selectionHighlightBackground": "#2A2A2A",
+		"editor.inactiveSelectionBackground": "#262626",
+
+		"editorLineNumber.foreground": "#6F6F6F",
+		"editorLineNumber.activeForeground": "#FFFFFF",
+
+		"editorIndentGuide.background1": "#2E2E2E",
+		"editorIndentGuide.activeBackground1": "#555555",
+
+		"editorCursor.foreground": "#FFFFFF",
+
+		"editorSuggestWidget.background": "#1F1F1F",
+		"editorSuggestWidget.foreground": "#E6E6E6",
+		"editorSuggestWidget.border": "#3A3A3A",
+		"editorSuggestWidget.selectedBackground": "#333333",
+
+		"activityBar.background": "#1E1E1E",
+		"activityBar.foreground": "#E6E6E6",
+		"activityBarBadge.background": "#FFFFFF",
+		"activityBarBadge.foreground": "#1A1A1A",
+
+		"sideBar.background": "#1C1C1C",
+		"sideBar.foreground": "#E6E6E6",
+		"sideBar.border": "#2A2A2A",
+
+		"list.hoverBackground": "#292929",
+		"list.activeSelectionBackground": "#3A3A3A",
+		"list.inactiveSelectionBackground": "#242424",
+
+		"tab.activeBackground": "#1A1A1A",
+		"tab.inactiveBackground": "#242424",
+		"tab.border": "#2C2C2C",
+		"tab.activeForeground": "#F2F2F2",
+
+		"titleBar.activeBackground": "#1C1C1C",
+		"titleBar.activeForeground": "#E6E6E6",
+
+		"input.background": "#262626",
+		"input.foreground": "#E6E6E6",
+		"input.border": "#3A3A3A",
+
+		"statusBar.background": "#1A1A1A",
+		"statusBar.foreground": "#E6E6E6",
+		"statusBar.border": "#2C2C2C",
+
+		"panel.background": "#1A1A1A",
+		"panel.border": "#2A2A2A",
+
+		"terminal.background": "#1A1A1A",
+		"terminal.foreground": "#E6E6E6",
+		"terminalCursor.foreground": "#FFFFFF",
+
+		"terminal.ansiBlack": "#000000",
+		"terminal.ansiRed": "#9C9C9C",
+		"terminal.ansiGreen": "#B3B3B3",
+		"terminal.ansiYellow": "#CCCCCC",
+		"terminal.ansiBlue": "#D6D6D6",
+		"terminal.ansiMagenta": "#E0E0E0",
+		"terminal.ansiCyan": "#EBEBEB",
+		"terminal.ansiWhite": "#FFFFFF",
+
+		"terminal.ansiBrightBlack": "#4D4D4D",
+		"terminal.ansiBrightRed": "#A6A6A6",
+		"terminal.ansiBrightGreen": "#C0C0C0",
+		"terminal.ansiBrightYellow": "#D9D9D9",
+		"terminal.ansiBrightBlue": "#E3E3E3",
+		"terminal.ansiBrightMagenta": "#EDEDED",
+		"terminal.ansiBrightCyan": "#F7F7F7",
+		"terminal.ansiBrightWhite": "#FFFFFF"
+	},
+
+	"tokenColors": [
+		{
+			"scope": "comment",
+			"settings": {
+				"foreground": "#9C9C9C",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"scope": "variable",
+			"settings": {
+				"foreground": "#E6E6E6"
+			}
+		},
+		{
+			"scope": ["string", "constant.character"],
+			"settings": {
+				"foreground": "#DADADA"
+			}
+		},
+		{
+			"scope": ["constant.numeric", "constant.language"],
+			"settings": {
+				"foreground": "#CCCCCC"
+			}
+		},
+		{
+			"scope": "storage.type",
+			"settings": {
+				"foreground": "#F2F2F2"
+			}
+		},
+		{
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#E0E0E0"
+			}
+		},
+		{
+			"scope": ["entity.name.tag", "punctuation.definition.tag"],
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		}
+	],
+
+	"semanticHighlighting": true,
+
+	"semanticTokenColors": {
+		"variable": "#E6E6E6",
+		"parameter": "#D6D6D6",
+		"type": "#C9C9C9",
+		"class": "#C9C9C9",
+		"property": "#D3D3D3",
+		"enumMember": "#D3D3D3",
+		"function": "#E0E0E0",
+		"method": "#E0E0E0",
+		"stringLiteral": "#DADADA",
+		"numberLiteral": "#CCCCCC",
+		"keyword": "#FFFFFF"
+	}
+}
