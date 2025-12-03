@@ -14,6 +14,12 @@
   "contributes": {
     "themes": [
       {
+      "id":"Sigmaris Sakura",
+      "label": "Sigmaris Sakura",
+      "uiTheme": "vs-dark",
+      "path": "./themes/sigmaris-sakura.json"
+    },
+      {
         "id": "Default Dark+",
         "label": "%darkPlusColorThemeLabel%",
         "uiTheme": "vs-dark",
